@@ -1,0 +1,202 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbs"
+
+    tools:context="obx.com.futurister.OptionChooser">
+
+    <ImageView
+        android:id="@+id/TitleBar2"
+        android:background="@color/accent_material_light"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/titleText2"
+        android:text="FuTurister"
+        android:layout_alignTop="@id/TitleBar2"
+        android:layout_alignBottom="@id/TitleBar2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/back_button"
+        android:layout_alignTop="@id/TitleBar2"
+        android:onClick="goBack"
+        android:layout_alignBottom="@id/TitleBar2"
+        android:layout_alignLeft="@id/TitleBar2"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/moreDialog"
+        android:src="@drawable/more"
+        android:layout_alignTop="@id/TitleBar2"
+        android:layout_alignBottom="@id/TitleBar2"
+        android:background="@android:color/transparent"
+        android:onClick="helpDial"
+        android:layout_alignRight="@id/TitleBar2"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+
+
+    <RelativeLayout
+
+        android:id="@+id/iconPack"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card1x"
+            android:onClick="cameraFuture"
+            android:alpha="0.8"
+            android:translationZ="6dp"
+            card_view:cardCornerRadius="60dp"
+            android:layout_width="160dp"
+            android:layout_height="170dp">
+
+            <ImageView
+                android:id="@+id/futourImage"
+
+                android:src="@drawable/stan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="FUTOURFIE"
+                android:textSize="20sp"
+
+                android:textColor="@android:color/white"
+                android:layout_gravity="bottom"
+                android:layout_width="fill_parent"
+                android:gravity="center"
+                android:background="@color/material_deep_teal_500"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card2x"
+            android:alpha="0.8"
+            android:translationZ="6dp"
+            android:onClick="bigBoard"
+            card_view:cardCornerRadius="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="160dp"
+            android:layout_height="170dp">
+
+            <ImageView
+                android:id="@+id/boardImage"
+
+                android:src="@drawable/stan_wood"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="BIG BOARD"
+                android:layout_gravity="bottom"
+                android:textColor="@android:color/white"
+                android:layout_width="fill_parent"
+                android:alpha="0.8"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@color/material_deep_teal_500"
+                android:layout_height="wrap_content" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card3x"
+            android:alpha="0.8"
+            android:translationZ="6dp"
+            android:layout_marginTop="15dp"
+            android:onClick="vidPlay"
+            card_view:cardCornerRadius="60dp"
+            card_view:cardElevation="0dp"
+            android:layout_below="@+id/card1x"
+            android:layout_width="160dp"
+            android:layout_height="170dp">
+
+            <ImageView
+                android:id="@+id/discoverImage"
+                android:src="@drawable/stan2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="DISCOVER"
+                android:textColor="@android:color/white"
+                android:layout_gravity="bottom"
+                android:layout_width="fill_parent"
+                android:alpha="0.8"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@color/material_deep_teal_500"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card4x"
+            android:alpha="0.8"
+            android:translationZ="6dp"
+            card_view:cardCornerRadius="60dp"
+            android:layout_marginTop="15dp"
+            android:onClick="guideLaunch"
+            android:layout_below="@+id/card2x"
+            android:layout_alignParentRight="true"
+            android:layout_width="160dp"
+            android:layout_height="170dp">
+
+            <ImageView
+                android:id="@+id/guideImage"
+                android:src="@drawable/guide_sun"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="GUIDE"
+                android:layout_gravity="bottom"
+                android:layout_width="fill_parent"
+                android:alpha="0.8"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@color/material_deep_teal_500"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

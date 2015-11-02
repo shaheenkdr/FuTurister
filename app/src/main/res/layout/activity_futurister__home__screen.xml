@@ -1,0 +1,105 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".Futurister_Home_Screen">
+
+<ImageView
+    android:id="@+id/TitleBar"
+    android:background="@color/accent_material_light"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/titleText"
+        android:text="HOME"
+        android:layout_alignTop="@id/TitleBar"
+        android:layout_alignBottom="@id/TitleBar"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/HomeMenu"
+        android:background="@android:color/transparent"
+        android:src="@drawable/menu_final"
+        android:layout_alignTop="@id/TitleBar"
+        android:layout_alignBottom="@id/TitleBar"
+        android:layout_alignLeft="@id/TitleBar"
+        android:onClick="wow"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/home_search_btn"
+        android:src="@drawable/more"
+        android:onClick="homeInfo"
+        android:layout_alignTop="@id/TitleBar"
+        android:layout_alignBottom="@id/TitleBar"
+        android:background="@android:color/transparent"
+        android:layout_alignRight="@id/TitleBar"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/home_image"
+        android:layout_below="@+id/TitleBar"
+        android:src="@drawable/futurister_home"
+        android:elevation="2dp"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp" />
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_below="@id/home_image"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:elevation="7dp"
+
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        card_view:cardCornerRadius="4dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/info_text"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:hint="Hey, where are you?"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/sendButton"
+        android:src="@drawable/send_temp"
+        android:layout_below="@+id/card_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="futureLauncher"
+
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+
+    </android.support.v4.widget.DrawerLayout>

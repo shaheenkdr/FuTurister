@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="obx.com.futurister" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="key" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".Futurister_Home_Screen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OptionChooser"
+            android:label="@string/title_activity_option_chooser" >
+        </activity>
+        <activity
+            android:name=".CameraTake"
+            android:label="@string/title_activity_camera_take" >
+        </activity>
+
+        <provider
+            android:name=".provider.MyFileContentProvider"
+            android:authorities="obx.com.futurister"
+            android:enabled="true"
+            android:exported="true" >
+        </provider>
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider"
+            android:exported="true" />
+
+        <activity
+            android:name=".BigBoard"
+            android:label="@string/title_activity_big_board" >
+        </activity>
+        <activity
+            android:name=".YouPlayer"
+            android:label="@string/title_activity_you_player" >
+        </activity>
+        <activity
+            android:name=".YouTubeFailureRecoveryActivity"
+            android:label="@string/title_activity_you_tube_failure_recovery" >
+        </activity>
+        <activity
+            android:name=".VideoActivity"
+            android:label="@string/title_activity_video" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".FeedActivity"
+            android:label="@string/title_activity_feed" >
+        </activity>
+        <activity
+            android:name=".Guide"
+            android:label="@string/title_activity_guide" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FuTurister</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_option_chooser">OptionChooser</string>
+    <string name="title_activity_camera_take">CameraTake</string>
+    <string name="facebook_app_id">id</string>
+    <string name="title_activity_big_board">BigBoard</string>
+    <string name="title_activity_single_item_view">SingleItemView</string>
+    <string name="namelabel">"Name : "</string>
+    <string name="title_activity_card_view">CardViewActivity</string>
+    <string name="title_activity_you_player">YouPlayer</string>
+    <string name="fullscreen_tutorial">This is a demo which shows how to handle fullscreen behaviour. This activity has differents layouts for portrait, landscape and fullscreen. The user can enter fullscreen either by using the player controller or programmatically by the programmer (here using a button). If your activity does not have a landscape layout, you can choose to automatically enter fullscreen when the device is rotated to landscape orientation.</string>
+    <string name="landscape_fullscreen">Always fullscreen in landscape</string>
+    <string name="enter_fullscreen">Enter Fullscreen</string>
+    <string name="title_activity_you_tube_failure_recovery">YouTubeFailureRecoveryActivity</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="kashmir">Jammu and Kashmir is the northernmost state of India. In the seventeenth century the Mughal emperor Jahangir set his eyes on the valley of Kashmir. He said that if paradise is anywhere on the earth, it is here, while living in a houseboat on Dal Lake. In Jammu and Kashmir the most important tourist places are Kashmir, Srinagar, the Mughal Gardens, Gulmarg, Pahalgam, Jammu, and Ladakh. Some areas require a special permit for non-Indians to visit.</string>
+    <string name="london">London is one of the worlds leading tourism destinations, and the city is home to an array of famous tourist attractions. The city attracted 15.3 million international visitors in 2011, making it one of the worlds most visited in terms of international visits. Notable attractions include the london Eye, which is a giant Ferris wheel located on the edge of the river Thames. Other notable attractions include the Tower of London, Buckingham Palace, Tower Bridge Experience, Madame Tussauds, ZSL London Zoo, London Dungeon and St Pauls Cathedral</string>
+    <string name="paris">Paris, the capital of France, has an annual 30 million foreign visitors, and so is the most visited city in the world. Paris sights include monuments and architecture, such as its Arc de Triomphe, Eiffel Tower and neo-classic Haussmannian boulevards and buildings as well as museums, operas and concert halls. There are also more modern attractions such as its suburban Disneyland Paris. Symbol of French culture, with its many monuments, the city attracts since the 2000s nearly three million visitors per year.</string>
+    <string name="himalaya">The himalaya literally meaning "abode of snow" is a mountain range in the Indian subcontinent which is a wonder to observe and achieve inner peace.This range is home to nine of the ten highest peaks on Earth, including the highest above sea level, Mount Everest. The Himalayas have profoundly shaped the cultures of South Asia. Many Himalayan peaks are sacred in both Buddhism and Hinduism</string>
+    <string name="russia">Saint Petersburg is the second largest city in Russia.It is located on the Neva River at the head of the Gulf of Finland on the Baltic Sea.Saint Petersburg is often described as the most Westernized city of Russia, as well as its cultural capital. It truly is a mesmerizing tourist destination to millions, watch the video for further info</string>
+    <string name="rome">Rome today is one of the most important tourist destinations of the world, due to the incalculable immensity of its archaeological and art treasures, as well as for the charm of its unique traditions, the beauty of its panoramic views, and the majesty of its magnificent "villas" (parks). Among the most significant resources: plenty of museums(Capitoline Museums, the Vatican Museums, Galleria Borghese, and a great many others)aqueducts, fountains, churches, palaces, historical buildings, the monuments and ruins of the Roman Forum, and the Catacombs. Rome is the 3rd most visited city in the EU, after London and Paris, and receives an average of 7 to 10 million tourists a year, which sometimes doubles on holy years. </string>
+    <string name="thailand">Thailand, officially the Kingdom of Thailand is a country in Southeast Asia with coasts on the Andaman Sea and the Gulf of Thailand. It borders Myanmar (Burma) to the northwest, Laos to the northeast, Cambodia to the southeast and Malaysia to the south.With great food, a tropical climate, fascinating culture, majestic mountains and great beaches, Thailand is a magnet for travellers around the world.</string>
+    <string name="Rajasthan">Rajasthan is one of the most popular tourist destinations in India, for both domestic and international tourists. Rajasthan attracts tourists for its historical forts, palaces, art and culture. Every third foreign tourist visiting India also travels to Rajasthan as it is part of the Golden Triangle for tourists visiting India.Endowed with natural beauty and a great history, Rajasthan has a flourishing tourism industry. The palaces of Jaipur, lakes of Udaipur, and desert forts of Jodhpur, Bikaner and Jaisalmer are among the most preferred destinations of many tourists, Indian and foreign.</string>
+    <string name="Barcelona">Barcelona is the 10th most visited city in the world and the third most visited in Europe after London and Paris, with 8 million tourists every year since 2012. With its Rambles, Barcelona is ranked the most popular city to visit in Spain.Barcelona as internationally renowned a tourist destination, with numerous recreational areas, one of the best beaches in the world, mild and warm climate, historical monuments, including eight UNESCO World Heritage Sites, many good-quality hotels, and developed tourist infrastructure.</string>
+    <string name="Budapest">Budapest became one of Central Europes most popular tourist attractions in the 1990s. Attractions in the city include Buda Castle which houses several museums including the Hungarian National Gallery, the Matthias Church, the Parliament Building and the City Park. The city has many museums, three opera houses, and thermal baths. Buda Castle, the Danube River embankments and the whole of Andrássy Avenue have been recognized as an UNESCO World Heritage Site.</string>
+    <string name="drawer_item_home">home</string>
+    <string name="drawer_item_settings">settings</string>
+    <string name="futor">Futourfie</string>
+    <string name="place">Places</string>
+    <string name="bout">about</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_feed">FeedActivity</string>
+    <string name="title_activity_guide">Guide</string>
+    <string name="hello">I am Shaheen Kader, a passionate C.S student and robotics enthusiast.This app is developed in memory of my love. In case of any queries mail me at : shaheenkader@outlook.com</string>
+
+</resources>

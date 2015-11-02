@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="obx.com.futurister.Guide">
+
+    <ImageView
+        android:id="@+id/TitleBarGuide"
+        android:background="@color/accent_material_light"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/titleTextGuide"
+        android:text="Guide"
+        android:layout_alignTop="@id/TitleBarGuide"
+        android:layout_alignBottom="@id/TitleBarGuide"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/BackButton"
+        android:background="@android:color/transparent"
+        android:src="@drawable/back_button"
+        android:layout_alignTop="@id/TitleBarGuide"
+        android:onClick="goBackGuide"
+        android:layout_alignBottom="@id/TitleBarGuide"
+        android:layout_alignLeft="@id/TitleBarGuide"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/guideImageWow"
+        android:layout_below="@id/TitleBarGuide"
+        android:src="@drawable/guide_sun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/guideImageWow"
+        android:text="Hey, wouldn't it be cool to hire some of our expert guides when you are in some new place. Yes, Even we believe so, And we are working hard to make that a reality!"
+        android:textSize="18sp"
+        android:id="@+id/textG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_below="@id/textG"
+        android:text="Coming Soon"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:textColor="@color/switch_thumb_normal_material_light"
+        
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp" />
+
+
+
+
+</RelativeLayout>

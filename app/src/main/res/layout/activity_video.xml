@@ -1,0 +1,359 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="obx.com.futurister.VideoActivity">
+
+    <ImageView
+        android:id="@+id/TitleBarVideo"
+        android:background="@color/accent_material_light"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/titleTextVideo"
+        android:text="PLACES"
+        android:layout_alignTop="@id/TitleBarVideo"
+        android:layout_alignBottom="@id/TitleBarVideo"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/BackButtonVideo"
+        android:background="@android:color/transparent"
+        android:src="@drawable/back_button"
+        android:layout_alignTop="@id/TitleBarVideo"
+        android:onClick="goBackVideo"
+        android:layout_alignBottom="@id/TitleBarVideo"
+        android:layout_alignLeft="@id/TitleBarVideo"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/moreDialogVideo"
+        android:src="@drawable/more"
+        android:layout_alignTop="@id/TitleBarVideo"
+        android:layout_alignBottom="@id/TitleBarVideo"
+        android:background="@android:color/transparent"
+        android:onClick="helpDialVideo"
+        android:layout_alignRight="@id/TitleBarVideo"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_below="@id/TitleBarVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingTop="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/VideoList"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Video1x"
+            android:translationZ="3dp"
+            android:onClick="vid1x"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+            <ImageView
+                android:id="@+id/kashmir"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/kashmir"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textKashmir"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:text="Kashmir, India"
+                android:alpha="0.7"
+                android:textSize="28sp"
+                android:background="#0099CC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Video2x"
+            android:onClick="vid2x"
+            android:layout_marginTop="12dp"
+            android:translationZ="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+            <ImageView
+                android:id="@+id/london"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/lon_pan"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textLondon"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:text="London, England"
+                android:alpha="0.7"
+                android:textSize="28sp"
+                android:background="#999966"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Video3x"
+            android:onClick="vid3x"
+            android:layout_marginTop="12dp"
+            android:translationZ="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+            <ImageView
+                android:id="@+id/paris"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/paris_vid"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/textParis"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:text="Paris, France"
+                android:alpha="0.7"
+                android:textSize="28sp"
+                android:background="#0099CC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Video4x"
+            android:onClick="vid4x"
+            android:layout_marginTop="12dp"
+            android:translationZ="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+            <ImageView
+                android:id="@+id/himalaya"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/himalaya"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/textHimalaya"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:text="Himalaya, India"
+                android:alpha="0.7"
+                android:textSize="28sp"
+                android:background="#999966"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Video5x"
+            android:onClick="vid5x"
+            android:layout_marginTop="12dp"
+            android:translationZ="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+            <ImageView
+                android:id="@+id/russia"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/russia"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textRussia"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:text="St Petersburg, Russia"
+                android:alpha="0.7"
+                android:textSize="28sp"
+                android:background="#0099CC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Video6x"
+            android:onClick="vid6x"
+            android:layout_marginTop="12dp"
+            android:translationZ="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+            <ImageView
+                android:id="@+id/rome"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/rome"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/textRome"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:text="Rome, Italy"
+                android:alpha="0.7"
+                android:textSize="28sp"
+                android:background="#999966"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Video7x"
+            android:onClick="vid7x"
+            android:layout_marginTop="12dp"
+            android:translationZ="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+            <ImageView
+                android:id="@+id/thailand"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/thailand"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/textThailand"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:text="Thailand"
+                android:alpha="0.7"
+                android:textSize="28sp"
+                android:background="#0099CC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Video8x"
+            android:onClick="vid8x"
+            android:layout_marginTop="12dp"
+            android:translationZ="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+            <ImageView
+                android:id="@+id/rajasthan"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/rajasthan"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/textRajasthan"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:text="Rajasthan, India"
+                android:alpha="0.7"
+                android:textSize="28sp"
+                android:background="#999966"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Video9x"
+            android:layout_marginTop="12dp"
+            android:onClick="vid9x"
+            android:translationZ="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+            <ImageView
+                android:id="@+id/Barcelona"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/barcelona"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/textBarcelona"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:text="Barcelona, Spain"
+                android:alpha="0.7"
+                android:textSize="28sp"
+                android:background="#0099CC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/Video10x"
+            android:onClick="vidx"
+            android:layout_marginTop="12dp"
+            android:translationZ="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+            <ImageView
+                android:id="@+id/budapest"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/budapest"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/textBudapest"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:text="Budapest, Hungary"
+                android:alpha="0.7"
+                android:textSize="28sp"
+                android:background="#666699"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

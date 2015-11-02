@@ -1,0 +1,89 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/TitleBarYou"
+        android:background="@color/accent_material_light"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/titleTextYou"
+
+        android:layout_alignTop="@id/TitleBarYou"
+        android:layout_alignBottom="@id/TitleBarYou"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/BackButtonYou"
+        android:background="@android:color/transparent"
+        android:src="@drawable/back_button"
+        android:layout_alignTop="@id/TitleBarYou"
+        android:onClick="goBackYou"
+        android:layout_alignBottom="@id/TitleBarYou"
+        android:layout_alignLeft="@id/TitleBarYou"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_below="@id/TitleBarYou"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        android:background="@color/material_deep_teal_500"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:id="@+id/other_views"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textDescYou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:visibility="invisible"
+            android:id="@+id/landscape_fullscreen_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/landscape_fullscreen"/>
+
+        <Button
+
+            android:visibility="invisible"
+            android:id="@+id/fullscreen_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/enter_fullscreen"/>
+
+        </LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>

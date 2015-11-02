@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="obx.com.futurister.FeedActivity">
+
+    <ImageView
+        android:id="@+id/TitleBarFeed"
+        android:background="@color/accent_material_light"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" />
+
+    <ImageButton
+        android:id="@+id/BackButtonFeed"
+        android:background="@android:color/transparent"
+        android:src="@drawable/back_button"
+        android:layout_alignTop="@id/TitleBarFeed"
+        android:onClick="backOptFeed"
+        android:layout_alignBottom="@id/TitleBarFeed"
+        android:layout_alignLeft="@id/TitleBarFeed"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="10dp"
+        android:translationZ="4dp"
+        android:layout_below="@id/TitleBarFeed"
+       android:layout_height="150dp"
+        android:layout_width="match_parent">
+
+        <EditText
+        android:id="@+id/FeedText"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:hint="Share what you feel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/sendButtonFeed"
+        android:layout_centerInParent="true"
+        android:src="@drawable/send_temp"
+        android:layout_below="@+id/card_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="feedPush"
+
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

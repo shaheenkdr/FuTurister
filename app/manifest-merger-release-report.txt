@@ -1,0 +1,238 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:5:5
+	android:name
+		ADDED from AndroidManifest.xml:5:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:6:5
+MERGED from com.google.android.gms:play-services-maps:7.5.0:21:5
+	android:name
+		ADDED from AndroidManifest.xml:6:22
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from AndroidManifest.xml:7:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:8:5
+MERGED from com.google.android.gms:play-services-maps:7.5.0:20:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:19
+application
+ADDED from AndroidManifest.xml:12:5
+MERGED from com.android.support:design:23.0.0:22:5
+MERGED from com.android.support:appcompat-v7:23.1.0:22:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.android.support:cardview-v7:23.0.0:22:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.facebook.android:facebook-android-sdk:4.7.0:28:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.google.android.gms:play-services-location:7.5.0:19:5
+MERGED from com.google.android.gms:play-services-base:7.5.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.google.android.gms:play-services-maps:7.5.0:29:5
+MERGED from com.google.android.gms:play-services-base:7.5.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.android.support:appcompat-v7:23.1.0:22:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.android.support:appcompat-v7:23.1.0:22:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+MERGED from com.android.support:appcompat-v7:23.1.0:22:5
+MERGED from com.android.support:support-v4:23.1.0:22:5
+	android:label
+		ADDED from AndroidManifest.xml:15:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:13:9
+	android:icon
+		ADDED from AndroidManifest.xml:14:9
+	android:theme
+		ADDED from AndroidManifest.xml:16:9
+meta-data#com.google.android.geo.API_KEY
+ADDED from AndroidManifest.xml:17:9
+	android:name
+		ADDED from AndroidManifest.xml:18:13
+	android:value
+		ADDED from AndroidManifest.xml:19:13
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from AndroidManifest.xml:20:9
+	android:name
+		ADDED from AndroidManifest.xml:21:13
+	android:value
+		ADDED from AndroidManifest.xml:22:13
+activity#com.facebook.FacebookActivity
+ADDED from AndroidManifest.xml:24:9
+	android:label
+		ADDED from AndroidManifest.xml:27:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:26:13
+	android:theme
+		ADDED from AndroidManifest.xml:28:13
+	android:name
+		ADDED from AndroidManifest.xml:25:13
+activity#obx.com.futurister.Futurister_Home_Screen
+ADDED from AndroidManifest.xml:29:9
+	android:label
+		ADDED from AndroidManifest.xml:31:13
+	android:name
+		ADDED from AndroidManifest.xml:30:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:32:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:33:17
+	android:name
+		ADDED from AndroidManifest.xml:33:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:35:17
+	android:name
+		ADDED from AndroidManifest.xml:35:27
+activity#obx.com.futurister.OptionChooser
+ADDED from AndroidManifest.xml:38:9
+	android:label
+		ADDED from AndroidManifest.xml:40:13
+	android:name
+		ADDED from AndroidManifest.xml:39:13
+activity#obx.com.futurister.CameraTake
+ADDED from AndroidManifest.xml:42:9
+	android:label
+		ADDED from AndroidManifest.xml:44:13
+	android:name
+		ADDED from AndroidManifest.xml:43:13
+provider#obx.com.futurister.provider.MyFileContentProvider
+ADDED from AndroidManifest.xml:47:9
+	android:exported
+		ADDED from AndroidManifest.xml:51:13
+	android:authorities
+		ADDED from AndroidManifest.xml:49:13
+	android:enabled
+		ADDED from AndroidManifest.xml:50:13
+	android:name
+		ADDED from AndroidManifest.xml:48:13
+provider#com.facebook.FacebookContentProvider
+ADDED from AndroidManifest.xml:53:9
+	android:exported
+		ADDED from AndroidManifest.xml:56:13
+	android:authorities
+		ADDED from AndroidManifest.xml:55:13
+	android:name
+		ADDED from AndroidManifest.xml:54:13
+activity#obx.com.futurister.BigBoard
+ADDED from AndroidManifest.xml:58:9
+	android:label
+		ADDED from AndroidManifest.xml:60:13
+	android:name
+		ADDED from AndroidManifest.xml:59:13
+activity#obx.com.futurister.YouPlayer
+ADDED from AndroidManifest.xml:62:9
+	android:label
+		ADDED from AndroidManifest.xml:64:13
+	android:name
+		ADDED from AndroidManifest.xml:63:13
+activity#obx.com.futurister.YouTubeFailureRecoveryActivity
+ADDED from AndroidManifest.xml:66:9
+	android:label
+		ADDED from AndroidManifest.xml:68:13
+	android:name
+		ADDED from AndroidManifest.xml:67:13
+activity#obx.com.futurister.VideoActivity
+ADDED from AndroidManifest.xml:70:9
+	android:label
+		ADDED from AndroidManifest.xml:72:13
+	android:name
+		ADDED from AndroidManifest.xml:71:13
+activity#obx.com.futurister.About
+ADDED from AndroidManifest.xml:74:9
+	android:label
+		ADDED from AndroidManifest.xml:76:13
+	android:name
+		ADDED from AndroidManifest.xml:75:13
+activity#obx.com.futurister.FeedActivity
+ADDED from AndroidManifest.xml:78:9
+	android:label
+		ADDED from AndroidManifest.xml:80:13
+	android:name
+		ADDED from AndroidManifest.xml:79:13
+activity#obx.com.futurister.Guide
+ADDED from AndroidManifest.xml:82:9
+	android:label
+		ADDED from AndroidManifest.xml:84:13
+	android:name
+		ADDED from AndroidManifest.xml:83:13
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:design:23.0.0:20:5
+MERGED from com.android.support:appcompat-v7:23.1.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.android.support:cardview-v7:23.0.0:20:5
+MERGED from com.android.support:recyclerview-v7:23.1.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.facebook.android:facebook-android-sdk:4.7.0:24:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.google.android.gms:play-services-location:7.5.0:18:5
+MERGED from com.google.android.gms:play-services-base:7.5.0:18:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.google.android.gms:play-services-maps:7.5.0:28:5
+MERGED from com.google.android.gms:play-services-base:7.5.0:18:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.android.support:recyclerview-v7:23.1.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.mikepenz:materialdrawer:4.4.3:8:5
+MERGED from com.mikepenz:materialize:0.2.7:8:5
+MERGED from com.android.support:appcompat-v7:23.1.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.android.support:appcompat-v7:23.1.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.android.support:recyclerview-v7:23.1.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+MERGED from com.mikepenz:iconics-core:1.7.9:8:5
+MERGED from com.android.support:appcompat-v7:23.1.0:20:5
+MERGED from com.android.support:support-v4:23.1.0:20:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+meta-data#com.google.android.gms.version
+ADDED from com.google.android.gms:play-services-base:7.5.0:21:9
+MERGED from com.google.android.gms:play-services-base:7.5.0:21:9
+	android:name
+		ADDED from com.google.android.gms:play-services-base:7.5.0:22:13
+	android:value
+		ADDED from com.google.android.gms:play-services-base:7.5.0:23:13
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from com.google.android.gms:play-services-maps:7.5.0:22:5
+	android:name
+		ADDED from com.google.android.gms:play-services-maps:7.5.0:22:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from com.google.android.gms:play-services-maps:7.5.0:23:5
+	android:name
+		ADDED from com.google.android.gms:play-services-maps:7.5.0:23:22
+uses-feature#0x00020000
+ADDED from com.google.android.gms:play-services-maps:7.5.0:24:5
+	android:required
+		ADDED from com.google.android.gms:play-services-maps:7.5.0:26:8
+	android:glEsVersion
+		ADDED from com.google.android.gms:play-services-maps:7.5.0:25:8
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from AndroidManifest.xml:2:1 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE

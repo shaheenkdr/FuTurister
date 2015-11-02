@@ -1,0 +1,88 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/TitleBar5"
+        android:background="@color/accent_material_light"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/titleTextBig"
+        android:text="BigBoard"
+        android:layout_alignTop="@id/TitleBar5"
+        android:layout_alignBottom="@id/TitleBar5"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/BackButton5"
+        android:background="@android:color/transparent"
+        android:src="@drawable/back_button"
+        android:layout_alignTop="@id/TitleBar5"
+        android:onClick="backOpt"
+        android:layout_alignBottom="@id/TitleBar5"
+        android:layout_alignLeft="@id/TitleBar5"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/moreDialogShareBig"
+        android:src="@drawable/more"
+        android:layout_alignTop="@id/TitleBar5"
+        android:layout_alignBottom="@id/TitleBar5"
+        android:background="@android:color/transparent"
+        android:onClick="boardHelp"
+        android:layout_alignRight="@id/TitleBar5"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_below="@+id/TitleBar5"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="4dp">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/rv">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        card_view:cardBackgroundColor="@color/material_drawer_selected_text"
+        android:id="@+id/plusB"
+        android:onClick="feed"
+        android:elevation="7dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        card_view:cardCornerRadius="30dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:src="@drawable/plus_save"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+ </RelativeLayout>
