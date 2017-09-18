@@ -21,10 +21,10 @@ The app uses `parse` as a realtime database, which is discontinued now, so you'l
 
 ## Libraries
 
-* [Facebook Android SDK] (https://developers.facebook.com/docs/android/)
-* [Youtube Android Player API] (https://developers.google.com/youtube/android/player/)
-* [Material Drawer] (https://github.com/mikepenz/MaterialDrawer)
-* [Parse] (http://parseplatform.org/)
+* [Facebook Android SDK](https://developers.facebook.com/docs/android/)
+* [Youtube Android Player API](https://developers.google.com/youtube/android/player/)
+* [Material Drawer](https://github.com/mikepenz/MaterialDrawer)
+* [Parse](http://parseplatform.org/)
 
 ## License
 
